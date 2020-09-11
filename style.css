@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
 
+@media only screens and (max-width:768px) { /* For Mobile Phones */
+
+
+    [class*="cal-"]{width:100%;}}
+
 #navbar {
     display: flex;
     background-color: #8C93A8;
@@ -25,7 +30,7 @@
 
 #welcome-section{
 display: flex;
-height: 1300px;
+height: 100vh;
 width: auto;
 background: rgb(140,147,168);
 background: linear-gradient(to left,rgb(44,7,3),rgb(74, 7, 3));
@@ -103,8 +108,18 @@ align-items: center;
     height: 600px;
     width: auto;
     background: rgb(140,147,168);
-    
     color: rgb(211, 185, 185);
     font-size: 3em;
+    justify-content: center;
+    align-items: center;
+}
 
+#profile-link{
+display: flex;
+}
+
+#one {
+height: 5vh;
+display: flex;
+background-color: red;
 }
