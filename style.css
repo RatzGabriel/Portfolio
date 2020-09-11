@@ -96,3 +96,15 @@ align-items: center;
     font-size: 3em;
     text-decoration: underline;
 }
+
+
+#footer{
+    display: flex;
+    height: 600px;
+    width: auto;
+    background: rgb(140,147,168);
+    
+    color: rgb(211, 185, 185);
+    font-size: 3em;
+
+}
